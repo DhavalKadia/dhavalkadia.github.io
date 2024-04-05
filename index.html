@@ -1,39 +1,92 @@
 <!DOCTYPE html>
-<html>
-<style>
-
-#contact a {margin-top: 6px;}
-</style>
+<html lang="en">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width">
-  <title>Dhaval Kadia</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dhaval Kadia - Scientist at FDA</title>
+  <meta name="description" content="Dhaval Kadia is a Scientist at the Food and Drug Administration (FDA), specializing in imaging, diagnostics, and software reliability. Visit dhaval.science for more information.">
+  <script type="application/ld+json">
+  {
+    "@context": "http://schema.org",
+    "@type": "Person",
+    "name": "Dhaval Kadia",
+    "jobTitle": "Scientist",
+    "affiliation": {
+      "@type": "Organization",
+      "name": "Food and Drug Administration (FDA)"
+    },
+    "website": "https://dhaval.science"
+  }
+  </script>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f9f9f9;
+    }
+    #main {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 20px;
+    }
+    #contact {
+      display: flex;
+      flex-direction: row;
+      margin: 20px;
+      background-color: #fff;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      overflow: hidden;
+    }
+    #profile {
+      padding: 20px;
+    }
+    #profile img {
+      border-radius: 50%;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+    #details {
+      padding: 20px;
+    }
+    #details h2 {
+      margin-top: 0;
+      color: #333;
+    }
+    #details p {
+      margin: 8px 0;
+      color: #666;
+    }
+    #details a {
+      color: #007bff;
+      text-decoration: none;
+    }
+    #details a:hover {
+      text-decoration: underline;
+    }
+  </style>
 </head>
 <body>
 
-<div id="main" style="display: flex;
-                      flex-direction: column;
-                      align-items: center;">
-  
-  <h2>Dhaval Kadia</h2>
+<div id="main">
 
-   <div id="contact" style="display: flex; flex-direction: row; margin: 20px">
+   <div id="contact">
      <div id="profile">
-       <img src="https://raw.githubusercontent.com/dhavalkadia/dhavalkadia.github.io/master/profile.jpeg" height="200em">
+       <img src="https://raw.githubusercontent.com/dhavalkadia/dhavalkadia.github.io/master/profile.jpeg" height="200em" alt="Profile Picture">
      </div>
-     <div id="contactInfo" style="display: flex; flex-direction: column; margin-left: 40px">
-       <p style="margin-bottom: 10px">Researcher</p>
-	   <a href="https://dhaval.science">Website</a>
-       <a href="mailto:me@dhaval.science">Email</a>
-	   <a href="https://thesis.dhaval.science">Masters Thesis</a>
-       <a href="https://www.linkedin.com/in/dhavalkadia">LinkedIn</a>
-	   <a href="https://scholar.google.com/citations?user=Doz7M2oAAAAJ">Google Scholar</a>
-       <a href="https://twitter.com/dhavalkadia">Twitter</a>
-
+     <div id="details">
+       <h2>Dhaval Kadia</h2>
+       <p>Scientist<br>
+       Division of Imaging, Diagnostics and Software Reliability (DIDSR)<br>
+       Office of Science and Engineering Laboratories (OSEL)<br>
+       Center for Devices and Radiological Health (CDRH)<br>
+       Food and Drug Administration (FDA)</p>
+       <br>
+       Website: <a href="https://dhaval.science">dhaval.science</a>
      </div>
   </div>  
 </div>
-
 
 </body>
 </html>
