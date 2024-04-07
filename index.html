@@ -34,21 +34,29 @@
     #contact {
       display: flex;
       flex-direction: row;
-      margin: 20px;
       background-color: #fff;
       border-radius: 10px;
       box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
       overflow: hidden;
+      position: relative; /* Position relative for parent */
+      padding-top: 220px; /* Adjust this value to accommodate the image and details */
     }
     #profile {
       padding: 20px;
+      position: absolute; /* Absolute positioning */
+      top: 0; /* Ensure the image sticks to the top */
+      left: 50%;
+      transform: translateX(-50%);
+      z-index: 1; /* Ensure the image is on top */
     }
     #profile img {
-      border-radius: 50%;
+      border-radius: 10%;
       box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      height: 200px;
     }
     #details {
       padding: 20px;
+      text-align: center;
     }
     #details h2 {
       margin-top: 0;
@@ -73,7 +81,7 @@
 
    <div id="contact">
      <div id="profile">
-       <img src="https://raw.githubusercontent.com/dhavalkadia/dhavalkadia.github.io/master/profile.jpeg" height="200em" alt="Profile Picture">
+       <img src="https://raw.githubusercontent.com/dhavalkadia/dhavalkadia.github.io/master/profile.jpeg" alt="Profile Picture">
      </div>
      <div id="details">
        <h2>Dhaval Kadia</h2>
